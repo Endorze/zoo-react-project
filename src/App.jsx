@@ -1,34 +1,23 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route } from 'react-router-dom'
+import HeaderFooterLayout from './components/Layout/HeaderFooterLayout/headerFooterLayout'
+import HomePage from './components/Pages/HomePage/homePage'
+import ReptilesPage from './components/Pages/ReptilesPage/reptilesPage'
+import MammalsPage from './components/Pages/MammalsPage/mammalsPage'
+import BirdsPage from './components/Pages/BirdsPage/birdsPage'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Routes>
+      <Route element={<HeaderFooterLayout />}>
+        <Route path='/' element={<HomePage />}/>
+        <Route path='/reptiles' element={<ReptilesPage />}/>
+        <Route path='/mammals' element={<MammalsPage />}/>
+        <Route path='/birds' element={<BirdsPage />}/>
+      </Route>
+    </Routes>
   )
 }
 
