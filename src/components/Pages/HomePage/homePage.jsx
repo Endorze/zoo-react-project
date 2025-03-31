@@ -1,6 +1,8 @@
+import LandingSection from "../../LandingSection/landingSection"
+
 const HomePage = () => {
     return (
-        <h1>Home</h1>
+        <LandingSection />
     )
 }
 

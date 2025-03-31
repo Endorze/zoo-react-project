@@ -1,0 +1,7 @@
+.button {
+    max-width: fit-content;
+    padding: 16px;
+    background-color: beige;
+    cursor: pointer;
+    border: none;
+}
