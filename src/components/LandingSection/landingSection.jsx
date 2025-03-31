@@ -1,4 +1,4 @@
-import styles from "./LandingSection.module.css"
+import styles from "./landingSection.module.css"
 import video from "../../assets/landing.mp4"
 import Button from "../Button/button";
 
