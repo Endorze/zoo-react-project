@@ -1,8 +1,30 @@
 .wrap {
     display: flex;
-    min-height: 600px;
+    max-height: 500px;
+    margin-top: 150px;
+    gap: 16px;
 }
 
 .infoBox {
+ display: flex;
+ flex-direction: column;
+ background-color: white;
+ color: black;
+ border-radius: 10px;
+ padding: 20px;
+}
+
+.infoBox img {
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+}
+
+.infoBox p {
+    font-size: 0.8em;
+}
+
+.buttonWrap {
     display: flex;
+    justify-content: space-between;
 }

@@ -2,7 +2,7 @@ const animals = [
     // Mammals
     {
       name: "Echidna",
-      group: "mammals",
+      group: "mammal",
       lifespan: "50 years",
       food: "Insects such as ants and termites, beetle larvae and worms",
       description:
@@ -13,7 +13,7 @@ const animals = [
     },
     {
       name: "Tasmanian Devil",
-      group: "mammals",
+      group: "mammal",
       lifespan: "5 years",
       food: "A predator, eats meat from animals such as wallabies and wombats",
       description:
@@ -24,7 +24,7 @@ const animals = [
     },
     {
       name: "Quokka",
-      group: "mammals",
+      group: "mammal",
       lifespan: "10 years",
       food: "Plant eaters, they munch on shrubs and grasses",
       description:
