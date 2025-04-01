@@ -1,6 +1,10 @@
+import MainContent from "../../MainContent/mainContent"
+
 const ReptilesPage = () => {
     return (
-        <h1>Reptiles</h1>
+        <>
+        <MainContent animalType={"reptile"}/>
+        </>
     )
 }
 
