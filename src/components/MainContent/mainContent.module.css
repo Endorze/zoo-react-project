@@ -1,0 +1,8 @@
+.wrap {
+    display: flex;
+    min-height: 600px;
+}
+
+.infoBox {
+    display: flex;
+}

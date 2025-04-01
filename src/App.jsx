@@ -14,11 +14,9 @@ function App() {
     <Routes>
       <Route element={<HeaderFooterLayout />}>
           <Route path='/' element={<HomePage />}/>
-        <Route element={<MaxWidthLayout />}>
           <Route path='/reptiles' element={<ReptilesPage />}/>
           <Route path='/mammals' element={<MammalsPage />}/>
           <Route path='/birds' element={<BirdsPage />}/>
-        </Route>
       </Route>
     </Routes>
   )

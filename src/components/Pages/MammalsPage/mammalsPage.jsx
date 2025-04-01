@@ -1,6 +1,10 @@
+import MainContent from "../../MainContent/mainContent"
+
 const MammalsPage = () => {
     return (
-        <h1>Mammals</h1>
+        <>
+        <MainContent animalType={"mammals"}/>
+        </>
     )
 }
 
