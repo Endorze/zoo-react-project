@@ -1,6 +1,7 @@
 const animals = [
     // Mammals
     {
+      id: 1,
       name: "Echidna",
       group: "mammals",
       lifespan: "50 years",
@@ -10,8 +11,10 @@ const animals = [
       length: "76cm",
       weight: "10kg",
       found: "Throughout Australia",
+      imagePath: "/images/mammals/echidna.jpg",
     },
     {
+      id: 2,
       name: "Tasmanian Devil",
       group: "mammals",
       lifespan: "5 years",
@@ -21,8 +24,10 @@ const animals = [
       length: "70cm",
       weight: "10kg",
       found: "Tasmania",
+      imagePath: "/images/mammals/tasmanian.jpg",
     },
     {
+      id: 3,
       name: "Quokka",
       group: "mammals",
       lifespan: "10 years",
@@ -32,10 +37,12 @@ const animals = [
       length: "50cm",
       weight: "3kg",
       found: "Rottnest Island and parts of Western Australia",
+      imagePath: "/images/mammals/quokka.jpg",
     },
   
     // Reptiles
     {
+      id: 4,
       name: "Frill-necked Lizard",
       group: "reptiles",
       lifespan: "20 years",
@@ -45,8 +52,10 @@ const animals = [
       length: "90cm",
       weight: "1kg",
       found: "Northern Australia",
+      imagePath: "/images/reptiles/frillnecked.jpg",
     },
     {
+      id: 5,
       name: "Hawksbill Turtle",
       group: "reptiles",
       lifespan: "50 years",
@@ -56,8 +65,10 @@ const animals = [
       length: "80cm (carapace)",
       weight: "50kg",
       found: "Tropical coasts of QLD, NT, and WA",
+      imagePath: "/images/reptiles/hawksbill.jpg",
     },
     {
+      id: 6,
       name: "Perentie",
       group: "reptiles",
       lifespan: "20 years",
@@ -67,10 +78,12 @@ const animals = [
       length: "2.5m",
       weight: "20kg",
       found: "Australian deserts",
+      imagePath: "/images/reptiles/perentie.jpg",
     },
   
     // Birds
     {
+      id: 7,
       name: "Cassowary",
       group: "birds",
       lifespan: "20 years",
@@ -80,8 +93,10 @@ const animals = [
       length: "1.7m",
       weight: "44kg",
       found: "Queensland",
+      imagePath: "/images/birds/cassowary.jpg",
     },
     {
+      id: 8,
       name: "Kookaburra",
       group: "birds",
       lifespan: "20 years",
@@ -91,8 +106,10 @@ const animals = [
       length: "43cm",
       weight: "300g",
       found: "Australia wide",
+      imagePath: "/images/birds/kookaburra.jpg",
     },
     {
+      id: 9,
       name: "Yellow Tailed Black Cockatoo",
       group: "birds",
       lifespan: "41 years",
@@ -102,6 +119,7 @@ const animals = [
       length: "65cm",
       weight: "900g",
       found: "SE Australia",
+      imagePath: "/images/birds/yellowtail.jpg",
     },
   ];
   

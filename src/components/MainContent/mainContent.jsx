@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import MaxWidthLayout from "../Layout/MaxWidthLayout/maxWidthLayout";
 import Sidebar from "../Sidebar/sidebar";
 import styles from "./mainContent.module.css";
@@ -32,7 +33,7 @@ const MainContent = ({ animalType }) => {
                                 </div>
                                 <div>
                                     <h2>{info.name}</h2>
-                                    <a href={`${info.group}`}>{info.group}</a>
+                                    <Link to={`${info.group}`}>{info.group}</Link>
                                     <p>{info.food}</p>
                                     <p>{showFullDesc
                                         ? info.description
@@ -41,9 +42,10 @@ const MainContent = ({ animalType }) => {
                                     <p>{info.length}</p>
                                     <p>{info.weight}</p>
                                     <p>{info.found}</p>
-                                        <button onClick={() => setShowFullDesc(!showFullDesc)}>
+                                    <Link to={`/animal/${info.id}`}>Read more</Link>
+                                        {/* <button onClick={() => setShowFullDesc(!showFullDesc)}>
                                             {showFullDesc ? "Show less" : "Read more"}
-                                        </button>
+                                        </button> */}
                                 </div>
                             </div>
                             <div className={styles.buttonWrap}>
