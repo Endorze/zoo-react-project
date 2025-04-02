@@ -6,6 +6,7 @@
     align-items: center;
     padding: 16px 48px;
     max-height: 80px;
+    z-index: 1;
 }
 
 .links {
