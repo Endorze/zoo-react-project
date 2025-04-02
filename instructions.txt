@@ -27,10 +27,12 @@ Mobile Navigation
 Main content
     Dynamical Component to display animals
         useState to toggle between welcome message/animal info
-            When displaying animal info read more button should open new window/or dynamically route.
+            A "Read more" button opens a new window or routes dynamically
+            A "Back" button to return from animal info
 
     Sidebar
-        Props to filter by animal group
+        Uses props to filter by animal group
+        Uses state to save selected animal object
 }
 
 //Footer
@@ -41,7 +43,8 @@ Footer
     NavLinks?
     Media?
 
-Media Query for phone/Desktop
+Responsiveness
+    Media Query for phone/Desktop
 
 //Layout
 
