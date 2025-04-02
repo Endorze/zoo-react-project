@@ -37,7 +37,7 @@ const animals = [
     // Reptiles
     {
       name: "Frill-necked Lizard",
-      group: "reptile",
+      group: "reptiles",
       lifespan: "20 years",
       food: "Small insects and spiders",
       description:
@@ -48,7 +48,7 @@ const animals = [
     },
     {
       name: "Hawksbill Turtle",
-      group: "reptile",
+      group: "reptiles",
       lifespan: "50 years",
       food: "Sponges, jellyfish, and sea plants",
       description:
@@ -59,7 +59,7 @@ const animals = [
     },
     {
       name: "Perentie",
-      group: "reptile",
+      group: "reptiles",
       lifespan: "20 years",
       food: "Carnivore – eats kangaroos, rabbits, lizards and birds",
       description:
@@ -72,7 +72,7 @@ const animals = [
     // Birds
     {
       name: "Cassowary",
-      group: "bird",
+      group: "birds",
       lifespan: "20 years",
       food: "Plants, fruit, insects and small animals",
       description:
@@ -83,7 +83,7 @@ const animals = [
     },
     {
       name: "Kookaburra",
-      group: "bird",
+      group: "birds",
       lifespan: "20 years",
       food: "Insects and small animals including snakes, frogs and lizards",
       description:
@@ -94,7 +94,7 @@ const animals = [
     },
     {
       name: "Yellow Tailed Black Cockatoo",
-      group: "bird",
+      group: "birds",
       lifespan: "41 years",
       food: "Fruit, seeds and other plant material",
       description:

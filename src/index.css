@@ -3,6 +3,8 @@
 :root {
   min-height: 100vh;
   font-family: "Open Sans";
+  --gap: 16px;
+  --margin-distance: 150px;
 }
 
 * {
@@ -13,4 +15,17 @@
 
 body {
   height: 100%;
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.horizontal {
+  display: flex;
+  gap: 16px;
 }
