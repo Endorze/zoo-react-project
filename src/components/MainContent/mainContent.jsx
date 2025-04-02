@@ -2,7 +2,7 @@ import MaxWidthLayout from "../Layout/MaxWidthLayout/maxWidthLayout";
 import Sidebar from "../Sidebar/sidebar";
 import styles from "./mainContent.module.css";
 import { useState } from "react";
-import {NavItem} from "../../components/Navigation/NavItem/navItem"
+// import {NavItem} from "../../components/Navigation/NavItem/navItem"
 
 const MainContent = ({ animalType }) => {
     const [info, setInfo] = useState(null);
@@ -32,7 +32,7 @@ const MainContent = ({ animalType }) => {
                                 </div>
                                 <div>
                                     <h2>{info.name}</h2>
-                                    <NavItem path={info.group}/>
+                                    <a href={`${info.group}`}>{info.group}</a>
                                     <p>{info.food}</p>
                                     <p>{showFullDesc
                                         ? info.description
@@ -54,8 +54,9 @@ const MainContent = ({ animalType }) => {
                         </div>
         
                 ) : (
-                    <div>
-                        <h2>Welcome!</h2>
+                    <div className={styles.welcome}>
+                        <h2>Welcome to Zoo Scandinavia</h2>
+                        <p>Please interact with the sidebar to display information about any animal you're interested in.</p>
                     </div>
                 )}
             </div>

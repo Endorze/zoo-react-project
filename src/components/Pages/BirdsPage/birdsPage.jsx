@@ -4,7 +4,7 @@ import Sidebar from "../../Sidebar/sidebar";
 const BirdsPage = () => {
     return (
         <>
-        <MainContent animalType={"bird"}/>
+        <MainContent animalType={"birds"}/>
         </>
     )
 }

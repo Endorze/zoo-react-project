@@ -1,0 +1,72 @@
+Lets build this zoo-website!
+
+Here's what we will need:
+
+// Header
+
+{ Data file with routes for NavLinks
+
+Desktop Navigation
+    Logo
+    NavLinks
+    (Optional content)
+
+Mobile Navigation
+    Hamburger Menu
+        Opens a new menu
+            NavLinks
+    Logo
+    (Optional content)
+}
+
+
+//Main Content
+
+{ Data file containing animal data
+
+Main content
+    Dynamical Component to display animals
+        useState to toggle between welcome message/animal info
+            When displaying animal info read more button should open new window/or dynamically route.
+
+    Sidebar
+        Props to filter by animal group
+}
+
+//Footer
+
+Footer
+    Logo
+    Services?
+    NavLinks?
+    Media?
+
+Media Query for phone/Desktop
+
+//Layout
+
+Layout file including header / outlet / footer to include header, footer on all pages.
+
+
+This should be enough for the assignment as i hopefully fill all the criterias:
+
+
+To achieve a Godkänt grade you must:
+
+Routes for 4 pages using React Router
+Reusable components
+Relevant use of props
+Relevant use of useState
+Components organised correctly
+Responsive design.
+
+
+To achieve a Välgodkänt grade you must complete the above and:
+
+A plan of how you will attempt this assignment
+External data imported where needed
+Directory and file organisation
+Use of CSS modules
+Use of Layout for page structure
+Correct code style and syntax
+Semantic naming

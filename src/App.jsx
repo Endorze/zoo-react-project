@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import HeaderFooterLayout from './components/Layout/HeaderFooterLayout/headerFooterLayout'
 import HomePage from './components/Pages/HomePage/homePage'
 import ReptilesPage from './components/Pages/ReptilesPage/reptilesPage'
 import MammalsPage from './components/Pages/MammalsPage/mammalsPage'
 import BirdsPage from './components/Pages/BirdsPage/birdsPage'
-import MaxWidthLayout from './components/Layout/MaxWidthLayout/maxWidthLayout'
+
 
 
 function App() {

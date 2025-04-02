@@ -1,10 +1,13 @@
+import Logo from "../Logo/logo";
 import styles from "./footer.module.css";
 
 const Footer = () => {
     return (
-        <div>
-            
-        </div>
+        <footer className={styles.footer}>
+            <div>
+                <Logo />
+            </div>
+        </footer>
     )
 }
 

@@ -3,6 +3,8 @@
 :root {
   min-height: 100vh;
   font-family: "Open Sans";
+  --gap: 16px;
+  --margin-distance: 150px;
 }
 
 * {
