@@ -1,7 +1,13 @@
 .button {
     max-width: fit-content;
     padding: 16px;
-    background-color: beige;
+    background-color: var(--button-color);
+    color: white;
     cursor: pointer;
     border: none;
+}
+
+.button:hover {
+    background-color: #1A8BCB;
+    transition: 0.1s ease-in;
 }

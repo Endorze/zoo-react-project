@@ -9,7 +9,6 @@ const Sidebar = ({group, onSelectAnimal}) => {
 
     return (
         <sidebar className={styles.sidebar}>
-            <h2>{group}</h2>
             {filteredAnimals.map((item, index) => 
             <button key={index} onClick={() => onSelectAnimal(item)}>{item.name}</button>
             )}

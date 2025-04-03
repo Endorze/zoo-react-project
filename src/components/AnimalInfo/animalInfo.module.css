@@ -1,13 +1,68 @@
 .animalInfo {
-    padding-top: var(--margin-distance);
     display: flex;
-    height: 100vh;
-    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 10px;
     margin: auto;
+    max-width: 460px;
+    gap: var(--gap);
 }
 
-.animalInfo img {
-    max-width: 300px;
-    height: 300px;
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.animalDescription {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    font-style: italic;
+  }
+  
+
+.animalInfo img,
+.animalInfo iframe {
+    width: 400px;
+    height: 315px;
     object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+
+.animalInfo button {
+    height: fit-content;
+    min-width: 100px;
+    padding: 6px;
+    background-color: var(--button-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.animalInfo button:hover {
+    background-color: #1A8BCB;
+    transition: 0.1s ease-in;
+    transform: scale(1.02);
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    font-size: 0.8rem;
+}
+
+.centerWrapper {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.animalInfo .description {
+    font-size: 550;
 }
