@@ -5,6 +5,7 @@
   font-family: "Open Sans";
   --gap: 16px;
   --margin-distance: 150px;
+  --button-color: #0077B5;
 }
 
 * {
@@ -22,10 +23,10 @@ body {
 .vertical {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: var(--gap);
 }
 
 .horizontal {
   display: flex;
-  gap: 16px;
+  gap: var(--gap);
 }

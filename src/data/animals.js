@@ -12,6 +12,7 @@ const animals = [
       weight: "10kg",
       found: "Throughout Australia",
       imagePath: "/images/mammals/echidna.jpg",
+      youtubeLink: "https://www.youtube.com/embed/FnrwDehyxxg?autoplay=1&mute=1",
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ const animals = [
       weight: "10kg",
       found: "Tasmania",
       imagePath: "/images/mammals/tasmanian.jpg",
+      youtubeLink: "https://www.youtube.com/embed/001atF_yIwk?si=57xhPo6ppKJDkmNn&autoplay=1&mute=1",
     },
     {
       id: 3,
@@ -38,6 +40,7 @@ const animals = [
       weight: "3kg",
       found: "Rottnest Island and parts of Western Australia",
       imagePath: "/images/mammals/quokka.jpg",
+      youtubeLink: "https://www.youtube.com/embed/_IH5MTsbzIc?si=O4A3QDWLweTY7eov&autoplay=1&mute=1",
     },
   
     // Reptiles
@@ -53,6 +56,7 @@ const animals = [
       weight: "1kg",
       found: "Northern Australia",
       imagePath: "/images/reptiles/frillnecked.jpg",
+      youtubeLink: "https://www.youtube.com/embed/rLY2gNiOFzk?si=NR0IH7me6w4CAM-D&autoplay=1&mute=1",
     },
     {
       id: 5,
@@ -66,6 +70,7 @@ const animals = [
       weight: "50kg",
       found: "Tropical coasts of QLD, NT, and WA",
       imagePath: "/images/reptiles/hawksbill.jpg",
+      youtubeLink: "https://www.youtube.com/embed/5Rmv3nliwCs?si=6DYDsvoDQ5SJ_KC-&autoplay=1&mute=1",
     },
     {
       id: 6,
@@ -79,6 +84,7 @@ const animals = [
       weight: "20kg",
       found: "Australian deserts",
       imagePath: "/images/reptiles/perentie.jpg",
+      youtubeLink: "https://www.youtube.com/embed/FnrwDehyxxg&autoplay=1&mute=1",
     },
   
     // Birds
@@ -94,6 +100,7 @@ const animals = [
       weight: "44kg",
       found: "Queensland",
       imagePath: "/images/birds/cassowary.jpg",
+      youtubeLink: "https://www.youtube.com/embed/FnrwDehyxxg&autoplay=1&mute=1",
     },
     {
       id: 8,
@@ -107,6 +114,7 @@ const animals = [
       weight: "300g",
       found: "Australia wide",
       imagePath: "/images/birds/kookaburra.jpg",
+      youtubeLink: "https://www.youtube.com/embed/FnrwDehyxxg&autoplay=1&mute=1",
     },
     {
       id: 9,
@@ -120,6 +128,7 @@ const animals = [
       weight: "900g",
       found: "SE Australia",
       imagePath: "/images/birds/yellowtail.jpg",
+      youtubeLink: "https://www.youtube.com/embed/FnrwDehyxxg&autoplay=1&mute=1",
     },
   ];
   

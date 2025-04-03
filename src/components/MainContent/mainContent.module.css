@@ -10,10 +10,8 @@
  flex-direction: column;
  background-color: white;
  color: black;
- border-radius: 10px;
  padding: 20px;
- transition: 0.1s ease-in;
- justify-content: space-between;
+ height: 400px;
 }
 
 .infoBox img {
