@@ -10,4 +10,5 @@
 .button:hover {
     background-color: #1A8BCB;
     transition: 0.1s ease-in;
+    transform: scale(1.02);
 }

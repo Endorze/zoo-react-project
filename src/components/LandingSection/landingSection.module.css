@@ -17,10 +17,22 @@
     display: flex;
     flex-direction: column;
     top: 40%;
-    max-width: 600px;
+    max-width: 700px;
     gap: 30px;
     justify-content: space-between;
     left: 48px;
     text-align: left;
     color: white;
+}
+
+.landingText h1 {
+    font-size: 3rem;
+}
+
+.landingText h2{
+    font-size: 1.5rem;
+}
+
+.landingText p {
+    font-size: 1.2rem;
 }
