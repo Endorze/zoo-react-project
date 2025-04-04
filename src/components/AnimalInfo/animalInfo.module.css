@@ -25,7 +25,7 @@
 
 .animalInfo img,
 .animalInfo iframe {
-    width: 100%;
+    width: 50%;
     height: 315px;
     object-fit: cover;
     margin-bottom: 1rem;
