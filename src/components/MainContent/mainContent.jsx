@@ -41,7 +41,7 @@ const MainContent = ({ animalType }) => {
                                     <div>
                                         <img src={info.imagePath} />
                                     </div>
-                                    <div>
+                                    <div className={styles.verticalGap}>
                                         <h2>{info.name}</h2>
                                         {location.pathname === "/" && (
                                             <Link to={`${info.group}`}>{info.group}</Link>
@@ -55,7 +55,7 @@ const MainContent = ({ animalType }) => {
                                 </div>
                                 <div className={styles.buttonWrap}>
                                     <button>Previous</button>
-                                    <p>{info.name}</p>
+                                    <p><strong>{info.name}</strong></p>
                                     <button>Next</button>
                                 </div>
                             </div>

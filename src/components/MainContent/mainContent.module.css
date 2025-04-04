@@ -11,13 +11,29 @@
  background-color: white;
  color: black;
  padding: 20px;
- height: 400px;
+ min-height: 350px;
 }
 
 .infoBox img {
     border-radius: 10px;
     width: 400px;
-    height: auto;
+    height: 300px;
+    object-fit: cover;
+}
+
+.infoBox button {
+    padding: 8px;
+    min-width: 100px;
+    border: none;
+    background-color: var(--button-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.infoBox button:hover {
+    background-color: #1A8BCB;
+    transition: 0.1s ease-in;
+    transform: scale(1.02);
 }
 
 .infoBox p {
@@ -27,6 +43,7 @@
 .buttonWrap {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .welcome {
@@ -34,4 +51,21 @@
     align-items: center;
     margin: auto;
     flex-direction: column;
+}
+
+.verticalGap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.verticalGap a {
+    text-decoration: none;
+    color: var(--button-color);
+    text-transform: capitalize;
+    letter-spacing: 0.05rem;
+}
+
+.verticalGap a:hover {
+    color: #05314b;
 }
