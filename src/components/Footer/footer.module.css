@@ -1,4 +1,44 @@
 .footer {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     margin-top: var(--margin-distance);
+    background-image: url("/images/footer/orange.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    display: flex;
+    color: black;
+    padding: 2rem;
+}
+
+.footer img {
+    width: 150px;
+    height: auto;
+}
+
+.footer > div {
+    flex: 1 1 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer h2 {
+    opacity: 0.7;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.footer a:hover {
+    color: var(--link-hover);
+    transform: scale(1.02);
+}
+
+.copyright {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    border-top: 1px solid rgba(161, 161, 161, 0.192);
+    padding: 10px 2rem;
 }

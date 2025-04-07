@@ -1,3 +1,4 @@
+import GoogleMaps from "../../GoogleMaps/googleMaps";
 import LandingSection from "../../LandingSection/landingSection"
 import MainContent from "../../MainContent/mainContent";
 
@@ -6,6 +7,7 @@ const HomePage = () => {
         <>
         <LandingSection />
         <MainContent />
+        <GoogleMaps />
         </>
     )
 }

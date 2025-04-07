@@ -6,6 +6,8 @@
   --gap: 16px;
   --margin-distance: 150px;
   --button-color: #0077B5;
+  --link-color: #312929;
+  --link-hover: #f8990b;
 }
 
 * {
