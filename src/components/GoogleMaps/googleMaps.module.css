@@ -1,0 +1,8 @@
+.wrapper {
+    margin-top: var(--margin-distance);
+}
+
+.googleTextSection {
+    display: flex;
+    gap: var(--gap);
+}
