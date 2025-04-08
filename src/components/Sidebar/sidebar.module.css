@@ -19,6 +19,6 @@
 }
 
 .sidebar button:hover {
-    background-color: #1A8BCB;
+    background-color: var(--button-color);
     transition: 0.1s ease-in;
 }
