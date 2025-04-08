@@ -31,13 +31,23 @@
 }
 
 .infoBox button:hover {
-    background-color: #1A8BCB;
+    background-color: var(--button-hover);
     transition: 0.1s ease-in;
     transform: scale(1.02);
 }
 
 .infoBox p {
     font-size: 0.8em;
+}
+
+.linkButton {
+    padding: 8px;
+    width: fit-content;
+    font-size: 13px;
+    border: none;
+    background-color: var(--button-color);
+    color: #fff !important;
+    cursor: pointer;
 }
 
 .buttonWrap {
