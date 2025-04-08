@@ -8,6 +8,12 @@
     height: 200px;
     overflow-y: auto;
     gap: 1px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar button {
