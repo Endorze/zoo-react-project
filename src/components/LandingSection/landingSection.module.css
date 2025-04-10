@@ -1,7 +1,7 @@
 .landing {
     position: relative;
     z-index: -1;
-    background-color: beige;
+    background-color: rgb(83, 48, 1);
     height: 90vh;
     width: 100%;
 }
@@ -44,4 +44,38 @@
 
 .landingText p {
     font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    .landing video {
+        /* display: none; */
+    }
+
+    .landing {
+        height: 40vh;
+    }
+
+    .landingText {
+        max-width: 100%;
+        top: 10%;
+        left: 0;
+        padding: var(--phone-padding);
+    }
+
+    .landingText h1 {
+        font-size: 2rem;
+    }
+
+    .landingText h2 {
+        font-size: 1rem;
+    }
+
+    .landingText p {
+        font-size: 0.8rem;
+    }
+
+    .landing button {
+        padding: 12px;
+    }
 }
