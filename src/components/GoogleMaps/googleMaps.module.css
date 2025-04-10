@@ -6,3 +6,13 @@
     display: flex;
     gap: var(--gap);
 }
+
+@media screen and (max-width: 900px) {
+    .googleTextSection {
+        flex-direction: column-reverse;
+    }
+
+    .wrapper {
+        margin-top: var(--phone-margin-top);
+    }
+}

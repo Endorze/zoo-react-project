@@ -9,6 +9,8 @@
   --button-hover: #fdb952;
   --link-color: #312929;
   --link-hover: #f8990b;
+  --phone-padding: 24px;
+  --phone-margin-top: 64px;
 }
 
 * {
@@ -51,3 +53,18 @@ body {
   opacity: 0;
   transition: opacity 150ms ease-out;
 }
+
+@media screen and (max-width: 900px) {
+  .horizontal {
+      flex-direction: column-reverse;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+

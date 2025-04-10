@@ -79,3 +79,30 @@
 .verticalGap a:hover {
     color: #05314b;
 }
+
+@media screen and (max-width: 900px) {
+    .wrap {
+        flex-direction: column-reverse;
+        max-height: fit-content;
+        height: 100%;
+        margin-top: var(--phone-margin-top);
+    }
+
+    .infoBox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .welcome {
+        align-items: start;
+        gap: var(--gap);
+    }
+
+    .infoBox {
+        min-height: 500px;
+    }
+
+    .buttonWrap {
+        display: none;
+    }
+}

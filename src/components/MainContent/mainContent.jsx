@@ -45,7 +45,7 @@ const MainContent = ({ animalType }) => {
                                             </div>
                                             <div className={styles.verticalGap}>
                                                 <h2>{info.name}</h2>
-                                                <Link to={`${info.group}`}>{info.group}</Link>
+                                                <Link to={`${info.group}`}>Visit {info.group}</Link>
                                                 <p>The {info.name} eats {info.food}.</p>
                                                 <p>
                                                     {showFullDesc
@@ -54,11 +54,6 @@ const MainContent = ({ animalType }) => {
                                                 </p>
                                                 <Link to={`/animal/${info.id}`} className={styles.linkButton}>Read more</Link>
                                             </div>
-                                        </div>
-                                        <div className={styles.buttonWrap}>
-                                            <button>Previous</button>
-                                            <p><strong>{info.name}</strong></p>
-                                            <button>Next</button>
                                         </div>
                                     </div>
                                 ) : (
@@ -69,18 +64,13 @@ const MainContent = ({ animalType }) => {
                                             </div>
                                             <div>
                                                 <h2>{info.name}</h2>
+                                                <p><strong>Description: </strong>{info.description}</p>
                                                 <p>The {info.name} eats {info.food}.</p>
-                                                <p>{info.description}</p>
-                                                <p>{info.lifespan}</p>
-                                                <p>{info.length}</p>
-                                                <p>{info.weight}</p>
-                                                <p>{info.found}</p>
+                                                <p><strong>Lifespan: </strong>{info.lifespan}</p>
+                                                <p><strong>Length: </strong>{info.length}</p>
+                                                <p><strong>Weight: </strong>{info.weight}</p>
+                                                <p><strong>Found: </strong>{info.found}</p>
                                             </div>
-                                        </div>
-                                        <div className={styles.buttonWrap}>
-                                            <button>Previous</button>
-                                            <p>{info.name}</p>
-                                            <button>Next</button>
                                         </div>
                                     </div>
                                 )

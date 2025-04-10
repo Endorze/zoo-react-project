@@ -66,3 +66,18 @@
 .animalInfo .description {
     font-size: 550;
 }
+
+@media screen and (max-width: 900px) {
+    .animalInfo img, .animalInfo iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .centerWrapper {
+        padding: var(--phone-padding);
+    }
+
+    .animalInfo {
+        height: 70%;
+    }
+}
