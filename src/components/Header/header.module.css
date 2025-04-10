@@ -39,6 +39,62 @@
   cursor: pointer;
 }
 
+.mobile {
+  background-color: var(--button-color);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 0.5rem;
+}
+
+.menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: -100%; 
+  width: 63%;
+  height: 100vh;
+  background-color: rgb(51, 51, 51) !important;
+  transition: right 0.3s ease-in-out;
+  z-index: 1;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  padding: 2rem 1rem;
+  justify-content: space-between;
+}
+
+.menuSubsection img {
+  width: 75%;
+  height: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4); 
+  z-index: 1;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+
+.menu .links {
+  flex-direction: column;
+}
+
+.active {
+  right: 0;
+}
+
+@media screen and (min-width: 900px) {
+  .mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .header {
     display: none;
