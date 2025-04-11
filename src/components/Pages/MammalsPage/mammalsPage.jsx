@@ -2,9 +2,10 @@ import MainContent from "../../MainContent/mainContent"
 
 const MammalsPage = () => {
     return (
-        <>
-        <MainContent animalType={"mammals"}/>
-        </>
+        <div className="bodyHeight">
+            <MainContent animalType={"mammals"}/>
+        </div>
+        
     )
 }
 

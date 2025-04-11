@@ -1,5 +1,6 @@
 .wrapper {
     margin-top: var(--margin-distance);
+    margin-bottom: var(--margin-distance);
 }
 
 .googleTextSection {

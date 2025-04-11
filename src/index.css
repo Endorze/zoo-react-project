@@ -13,6 +13,10 @@
   --phone-margin-top: 64px;
 }
 
+.bodyHeight {
+  min-height: 70vh;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
